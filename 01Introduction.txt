@@ -1,14 +1,18 @@
 Traditional Deployment
+-> On Premises (self-managed or colocation)
 -> Less Secured
 -> Not Portabale
 -> Very Time consuming
 -> Very Expensive
+-> Bare Metal
+-> Monoliths are the only practicle architecture
 
 VM Deployment
 -> Security Risk
 -> less  Portabale
 -> Time Consuming
 -> required OS and  Hypervisor, and additional os
+-> Managing large number of the resource is Challanging
 
 Kubernates
 -> kubernates is a tool tata allows us to manage continerized deployment.
@@ -17,6 +21,11 @@ Kubernates
 -> Very Portabale
 -> much less time consuming
 -> can work any platfoem and environment
+-> Efficiaent scheduling across instances
+-> Health Check
+-> Autoscaling
+-> Networking
+-> Perstent storage
 
 
 What is Kubernates ?
