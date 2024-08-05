@@ -1,0 +1,40 @@
+Traditional Deployment
+-> Less Secured
+-> Not Portabale
+-> Very Time consuming
+-> Very Expensive
+
+VM Deployment
+-> Security Risk
+-> less  Portabale
+-> Time Consuming
+-> required OS and  Hypervisor, and additional os
+
+Kubernates
+-> kubernates is a tool tata allows us to manage continerized deployment.
+-> maturity of deployment 
+-> Secured and isolated
+-> Very Portabale
+-> much less time consuming
+-> can work any platfoem and environment
+
+
+What is Kubernates ?
+-> K8 is an open-source platform used for managinign,  maintaining, deploying group  of containerized application.
+
+
+open source 
+workload scalability
+High Availability
+Designed for deployment 
+service discovery and load balancing
+storage orchestration
+self healing
+automated rollout and rollback
+Automatic bin Packing
+
+
+
+
+
+
