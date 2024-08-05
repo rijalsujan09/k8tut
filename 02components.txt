@@ -1,0 +1,40 @@
+
+
+What is pod?
+A Single instance of a running process in a cluster. 
+It can run one or more container and share the same resources.
+
+--------------------------------------------------------------
+
+Master Node (Control Plane)
+
+API Seerver
+  -> provides interface to commuinbicate with worker node.
+Scheduler
+  -> assign node  to newly created pods
+ETCD
+  -> key-valu store, having all the cluster data.
+Control Manager
+  -> responsible to manage the state of the worker node
+
+---------------------------------------------------------------
+
+Worker Nodes
+
+Kublet
+  -> agent, make sure that the container running in the pods
+POD
+  -> pod, container run in a pod
+Kube-Proxy 
+  -> mainatins network rulles to communicate with the pods
+Container-Runtime
+  -> a tool responsile for ruinning contianer
+
+---------------------------------------------------------------
+
+Benifits of Kubernates
+ -> Container Orchesration 
+ -> Scalability
+ -> Load Balancing
+ -> High Avaialability
+ -> Rollouts and Rollback
